@@ -59,6 +59,12 @@ color: rgb(255, 255, 255);</string>
      <height>121</height>
     </rect>
    </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
    <column>
     <property name="text">
      <string>#</string>
@@ -140,7 +146,7 @@ color: rgb(255, 255, 255);</string>
    <property name="title">
     <string>Input Car Details</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -180,13 +186,13 @@ color: rgb(255, 255, 255);</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>90</x>
       <y>30</y>
       <width>271</width>
-      <height>121</height>
+      <height>128</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -217,7 +223,7 @@ color: rgb(255, 255, 255);</string>
    <property name="title">
     <string>Commands</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
