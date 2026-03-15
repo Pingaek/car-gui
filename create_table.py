@@ -1,9 +1,9 @@
 sql = '''
   create table car(
     id integer primary key,
-    brand text not null,
-    model text not null,
-    year integer not null,
+    pokemon text not null,
+    element text not null,
+    gen integer not null,
     price integer not null
   );
 '''
