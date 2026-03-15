@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
     self.tb_car.setColumnWidth(0, 50)
     self.tb_car.setColumnWidth(1, 180)
     self.tb_car.setColumnWidth(2, 180)
-    self.tb_car.setColumnWidth(3, 110)
+    self.tb_car.setColumnWidth(3, 100)
     self.tb_car.setColumnWidth(4, 180)
 
     self.show_all_cars()
